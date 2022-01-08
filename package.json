@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kotasugya/TypeScript_todo/issues"
   },
-  "homepage": "https://github.com/kotasugya/TypeScript_todo#readme"
+  "homepage": "https://github.com/kotasugya/TypeScript_todo#readme",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
 }
