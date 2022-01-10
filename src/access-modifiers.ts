@@ -2,7 +2,7 @@ export {};
 
 class Person {
   name: string;
-  age: number;
+  private age: number;
 
   constructor(name: string, age: number) {
     this.name = name;
@@ -13,5 +13,6 @@ class Person {
   }
 }
 let taro = new Person('Taro', 26);
+console.log(taro.name);
 console.log(taro.profile());
 // let yamada = new Person();
